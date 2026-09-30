@@ -10,3 +10,10 @@ if (in_array(3, $array_ids)) { // это по любому города. зде�
     $servicesParent = 1;
 }
 return $servicesParent;
+/****** 
+Потом в head делаешь 
+{var $city_id = $_modx->runSnippet("mainParent", [])}
+{var $copyResource = $_modx->resource.idContent}
+и получаешь поля города
+Города лежат в одной плоскости с главной страницей
+*******/
